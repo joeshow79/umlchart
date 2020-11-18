@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T08:44:36.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Eno-fpspI5QgOgFbklmM" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:52:45.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="GcePg5-Op6ZXDYFZgJGN" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1919" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,12 +185,6 @@
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-61" value="OutputSidePacketSet" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="650" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-62" value="InputStreamHandler" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="840" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-63" value="OutputStreamHandler" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="840" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-2" value="R&quot;(&lt;br&gt;&amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp;output_stream: &quot;out&quot; &lt;br&gt;&amp;nbsp;node { &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;node&lt;br&gt;&amp;nbsp;{ &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out&quot;&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;)&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="60" width="550" height="230" as="geometry" />
         </mxCell>
@@ -281,10 +275,11 @@
             <mxPoint x="680" y="603" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-35" value="AddMirror" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.996;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XJ3LXA7MW8zPhXsOhgYq-27" target="_TtrgF-6V0Fd3hpmhVeo-28">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-35" value="MovePacket/&lt;br&gt;AddPacket" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.996;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XJ3LXA7MW8zPhXsOhgYq-27" target="_TtrgF-6V0Fd3hpmhVeo-28">
+          <mxGeometry x="0.214" y="-31" width="80" relative="1" as="geometry">
             <mxPoint x="140" y="629.5" as="sourcePoint" />
             <mxPoint x="260" y="629.5" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-36" value="AddMirror" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#FF0000;" edge="1" parent="1">
@@ -302,8 +297,18 @@
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-38" value="data flow" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="615" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-39" value="setup phase" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-39" value="init" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="650" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-45" value="AddMiror" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.434;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="XJ3LXA7MW8zPhXsOhgYq-31" target="_TtrgF-6V0Fd3hpmhVeo-28">
+          <mxGeometry x="-0.0125" y="-2" width="80" relative="1" as="geometry">
+            <mxPoint x="160.00000000000006" y="589" as="sourcePoint" />
+            <mxPoint x="246.04000000000002" y="671" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="160" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
