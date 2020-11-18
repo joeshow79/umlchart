@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:06:54.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="tpWVmbMuMMzWDPuMOSeH" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:45:34.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="HJ6uGagjesDXuTliPlnC" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
-    <mxGraphModel dx="1920" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1919" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,8 @@
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-5" value="GraphNode" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-6" value="Executor" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="220" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-7" value="CalculatorContract" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="160" width="110" height="50" as="geometry" />
+          <mxGeometry x="30" y="220" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-8" value="CalculatorContext" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="100" width="110" height="50" as="geometry" />
@@ -203,6 +200,15 @@
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-8" value="InputStream" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-9" value="InputStreamShardSet" style="html=1;fillColor=#B3FF66;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-10" value="OutputStreamShard" style="html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="840" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-11" value="CalculatorContextManager" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
