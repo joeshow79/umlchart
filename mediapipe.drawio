@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T06:38:12.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="jo4d2-Fzt1WjyJoQMQWR" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T06:50:03.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="UoPAjcycF6hBB0kfGwXO" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1920" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,8 +145,8 @@
             <mxPoint x="570" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-41" value="InputStreamManager" style="html=1;" parent="XJ3LXA7MW8zPhXsOhgYq-54" vertex="1">
-          <mxGeometry x="160" y="170" width="210" height="30.01" as="geometry" />
+        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-41" value="InputStreamManager&lt;br&gt;name(&quot;out&quot;)" style="html=1;" parent="XJ3LXA7MW8zPhXsOhgYq-54" vertex="1">
+          <mxGeometry x="160" y="160" width="210" height="40.01" as="geometry" />
         </mxCell>
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-55" value="Next" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -176,6 +176,9 @@
         </mxCell>
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-63" value="OutputStreamHandler" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="620" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-2" value="R&quot;(&lt;br&gt;&amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp;output_stream: &quot;out&quot; &lt;br&gt;&amp;nbsp;node { &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;node&lt;br&gt;&amp;nbsp;{ &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out&quot;&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;)&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="60" width="550" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
