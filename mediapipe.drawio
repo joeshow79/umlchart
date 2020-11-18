@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T06:50:03.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="UoPAjcycF6hBB0kfGwXO" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:00:48.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="oadXgR8A_PsvoFn2C0WL" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1920" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,6 +179,9 @@
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-2" value="R&quot;(&lt;br&gt;&amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp;output_stream: &quot;out&quot; &lt;br&gt;&amp;nbsp;node { &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;node&lt;br&gt;&amp;nbsp;{ &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out&quot;&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;)&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="60" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-3" value="CalculatorContext" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="720" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
