@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:03:20.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="jYVhrr_WGEfWkonHRpdk" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:06:54.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="tpWVmbMuMMzWDPuMOSeH" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1920" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-25" value="PacketGeneratorGraph" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="220" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-30" value="OutputStreamShard" style="html=1;" parent="1" vertex="1">
+        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-30" value="OutputStream" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="40" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-35" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -200,6 +200,9 @@
             <mxPoint x="434" y="280" as="sourcePoint" />
             <mxPoint x="504" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-8" value="InputStream" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="40" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
