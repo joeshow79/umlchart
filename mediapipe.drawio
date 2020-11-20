@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T02:21:33.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Iw9TJBJYiFw0etpKCQgk" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T02:25:28.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="t2E70eGts6stIH_cgaG1" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
-    <mxGraphModel dx="1936" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2675" dy="2361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-29" value="OutputStreamShard" style="html=1;" parent="XJ3LXA7MW8zPhXsOhgYq-32" vertex="1">
           <mxGeometry y="102.85714285714285" width="124.34782608695652" height="57.14285714285714" as="geometry" />
         </mxCell>
-        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-31" value="OutputStreamManager" style="html=1;" parent="XJ3LXA7MW8zPhXsOhgYq-32" vertex="1">
+        <mxCell id="XJ3LXA7MW8zPhXsOhgYq-31" value="OutputStreamManager" style="html=1;fillColor=#E6D0DE;" parent="XJ3LXA7MW8zPhXsOhgYq-32" vertex="1">
           <mxGeometry x="135.65217391304347" y="102.85714285714285" width="124.34782608695652" height="57.14285714285714" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-12" value="A-2: PropagateUpdatesToMirrors" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="XJ3LXA7MW8zPhXsOhgYq-32">
@@ -245,7 +245,7 @@
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-23" value="GraphNode&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="320" y="440" width="255" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-24" value="OutputStreamManager" style="html=1;" vertex="1" parent="1">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-24" value="OutputStreamManager" style="html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="465" y="585.01" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-25" value="OutputSidePacketSet" style="html=1;" vertex="1" parent="1">
