@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T03:32:30.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="d3kd6lQk3cXkkLiL63Ce" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T03:36:54.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="t8MWGF8UlBteHelnn5Y0" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="2132" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1464,6 +1464,19 @@
               <mxPoint x="1710" y="630" />
             </Array>
             <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-256" value="&lt;br&gt;&lt;b&gt;:GraphInputStream&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="496" width="101" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-264" value="make_unique" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="_TtrgF-6V0Fd3hpmhVeo-256">
+          <mxGeometry x="0.3773" y="5" width="80" relative="1" as="geometry">
+            <mxPoint x="1640.003529411765" y="734.9999999999998" as="sourcePoint" />
+            <mxPoint x="1900.18" y="734.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1800.18" y="735" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
