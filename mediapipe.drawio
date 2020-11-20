@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T05:40:16.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="oShE2WI2vs6hQTSQvYwT" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T05:47:57.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="kDsSk6ZRPeKGhHBrJ1Tq" version="13.9.7" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
-    <mxGraphModel dx="5263" dy="3833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1936" dy="1835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,8 +185,8 @@
         <mxCell id="XJ3LXA7MW8zPhXsOhgYq-61" value="OutputSidePacketSet" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="596" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-2" value="R&quot;(&lt;br&gt;&amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp;output_stream: &quot;out&quot; &lt;br&gt;&amp;nbsp;node { &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;node&lt;br&gt;&amp;nbsp;{ &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out&quot;&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;)&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="871" y="-14" width="550" height="230" as="geometry" />
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-2" value="R&quot;(&lt;br&gt;&amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp;output_stream: &quot;out&quot; &lt;br&gt;&amp;nbsp;node { &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;node&lt;br&gt;&amp;nbsp;{ &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out&quot;&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;)&lt;br&gt;" style="text;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="845.5" y="-14" width="249" height="230" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-3" value="CalculatorContext&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="375" y="876" width="260" height="90" as="geometry" />
@@ -1707,6 +1707,9 @@
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-24" value="OutputStreamManager" style="html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="480" y="576" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-312" value="CalculatorGraph graph;&lt;br&gt;&lt;br&gt;MP_RETURN_IF_ERROR(graph.Initialize(config));&lt;br&gt;&amp;nbsp;&lt;br&gt;ASSIGN_OR_RETURN(OutputStreamPoller poller,                   graph.AddOutputStreamPoller(&quot;out&quot;));&lt;br&gt;&lt;br&gt;MP_RETURN_IF_ERROR(graph.StartRun({})); &lt;br&gt;&lt;br&gt;// Give 10 input packets that contains the same std::string &quot;Hello World!&quot;.  for (int i = 0; i &amp;lt; 10; ++i) {&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&amp;nbsp;MP_RETURN_IF_ERROR(graph.AddPacketToInputStream(        &quot;in&quot;, MakePacket(&quot;Hello World!&quot;).At(Timestamp(i)))); &lt;br&gt;&amp;nbsp;} &lt;br&gt;&lt;br&gt;// Close the input stream &quot;in&quot;.  MP_RETURN_IF_ERROR(graph.CloseInputStream(&quot;in&quot;));                                                                                                                                                                                               mediapipe::Packet packet; &lt;br&gt;// Get the output packets std::string. &lt;br&gt;&lt;br&gt;while (poller.Next(&amp;amp;packet)) { &lt;br&gt;&amp;nbsp; &amp;nbsp; LOG(INFO) &amp;lt;&amp;lt; packet.Get(); &lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;return graph.WaitUntilDone();" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-94" width="310" height="364" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
