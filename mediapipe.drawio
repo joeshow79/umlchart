@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T06:03:42.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="G5Vgb2sgDG2cNfOLysy1" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T06:32:53.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="PsJi4BNfKQUi6KROMvcX" version="13.10.0" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1936" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1380,7 +1380,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-243" value="&lt;br&gt;&lt;b&gt;:GeneratorScheduler&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="-60" width="110" height="620" as="geometry" />
+          <mxGeometry x="2280" y="310" width="110" height="250" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-249" value="TBD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="_TtrgF-6V0Fd3hpmhVeo-243" vertex="1">
           <mxGeometry x="60" y="491" width="40" height="49" as="geometry" />
@@ -1529,7 +1529,7 @@
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-279" value="AddMirror(input_side_packet_handler)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry x="-0.3236" width="80" relative="1" as="geometry">
-            <mxPoint x="1970.5" y="990" as="sourcePoint" />
+            <mxPoint x="1970" y="990" as="sourcePoint" />
             <mxPoint x="2279.5" y="990" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2040.5" y="990" />
@@ -1637,7 +1637,7 @@
             <mxPoint x="16" y="-36.06999999999999" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-300" value="CreateByNameInNamespace" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-300" value="CreateByNameInNamespace" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1" target="_TtrgF-6V0Fd3hpmhVeo-304">
           <mxGeometry x="-0.3236" width="80" relative="1" as="geometry">
             <mxPoint x="1970" y="1489.9999999999995" as="sourcePoint" />
             <mxPoint x="2364.5" y="1489.9999999999995" as="targetPoint" />
@@ -1674,7 +1674,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-304" value="&lt;br&gt;&lt;b&gt;:InputStreamHandlerRegistry&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="1410" width="110" height="140" as="geometry" />
+          <mxGeometry x="2280" y="1410" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-308" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1710,6 +1710,61 @@
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-312" value="CalculatorGraph graph;&lt;br&gt;&lt;br&gt;MP_RETURN_IF_ERROR(graph.Initialize(config));&lt;br&gt;&amp;nbsp;&lt;br&gt;ASSIGN_OR_RETURN(OutputStreamPoller poller,                   graph.AddOutputStreamPoller(&quot;out&quot;));&lt;br&gt;&lt;br&gt;MP_RETURN_IF_ERROR(graph.StartRun({})); &lt;br&gt;&lt;br&gt;// Give 10 input packets that contains the same std::string &quot;Hello World!&quot;.  for (int i = 0; i &amp;lt; 10; ++i) {&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&amp;nbsp;MP_RETURN_IF_ERROR(graph.AddPacketToInputStream(        &quot;in&quot;, MakePacket(&quot;Hello World!&quot;).At(Timestamp(i)))); &lt;br&gt;&amp;nbsp;} &lt;br&gt;&lt;br&gt;// Close the input stream &quot;in&quot;.  MP_RETURN_IF_ERROR(graph.CloseInputStream(&quot;in&quot;));                                                                                                                                                                                               mediapipe::Packet packet; &lt;br&gt;// Get the output packets std::string. &lt;br&gt;&lt;br&gt;while (poller.Next(&amp;amp;packet)) { &lt;br&gt;&amp;nbsp; &amp;nbsp; LOG(INFO) &amp;lt;&amp;lt; packet.Get(); &lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;return graph.WaitUntilDone();" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="-94" width="310" height="364" as="geometry" />
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2430" y="590" as="sourcePoint" />
+            <mxPoint x="2430" y="622" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2460" y="590" />
+              <mxPoint x="2460" y="622" />
+              <mxPoint x="2430" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-2" value="PrepareForRun" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oeEB2f8aZJNHgzJaXCm0-1">
+          <mxGeometry x="-0.1903" relative="1" as="geometry">
+            <mxPoint x="20" y="-10.999999999999995" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2570" y="642" as="sourcePoint" />
+            <mxPoint x="2570" y="674" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2600" y="642" />
+              <mxPoint x="2600" y="674" />
+              <mxPoint x="2570" y="674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-4" value="PrepareForRun" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oeEB2f8aZJNHgzJaXCm0-3">
+          <mxGeometry x="-0.1903" relative="1" as="geometry">
+            <mxPoint x="20" y="-10.999999999999995" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-5" value="make_unique" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.3236" width="80" relative="1" as="geometry">
+            <mxPoint x="1970.5" y="870.5" as="sourcePoint" />
+            <mxPoint x="2280" y="870.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2041" y="870.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-6" value="&lt;br&gt;&lt;b&gt;:InputStreamHandler&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1410" width="110" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-7" value="InitializeInputStreamManagers" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.3236" width="80" relative="1" as="geometry">
+            <mxPoint x="1970" y="1580" as="sourcePoint" />
+            <mxPoint x="2500" y="1580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2020" y="1580" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
