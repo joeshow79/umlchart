@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T09:45:19.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="53JT5K6EBXMBRmcjSo9O" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T10:01:29.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ravccSF5VH-gSOyEXf5V" version="13.10.1" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1717" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1183,7 +1183,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-208" value="AddPacket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TtrgF-6V0Fd3hpmhVeo-207" vertex="1" connectable="0">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-208" value="AddPacket(PacketA)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TtrgF-6V0Fd3hpmhVeo-207" vertex="1" connectable="0">
           <mxGeometry x="-0.1903" relative="1" as="geometry">
             <mxPoint x="13" y="-10" as="offset" />
           </mxGeometry>
@@ -1198,7 +1198,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-211" value="PropagateUpdatesToMirrors" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TtrgF-6V0Fd3hpmhVeo-210" vertex="1" connectable="0">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-211" value="PropagateUpdatesToMirrors(Shard of PacketA)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TtrgF-6V0Fd3hpmhVeo-210" vertex="1" connectable="0">
           <mxGeometry x="-0.1903" relative="1" as="geometry">
             <mxPoint x="13" y="-10" as="offset" />
           </mxGeometry>
@@ -1213,7 +1213,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-213" value="Q 1/2: MovePackets/AddPackets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TtrgF-6V0Fd3hpmhVeo-212" vertex="1" connectable="0">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-213" value="Q 1/2: MovePackets/AddPackets(list including PacketA)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TtrgF-6V0Fd3hpmhVeo-212" vertex="1" connectable="0">
           <mxGeometry x="-0.1903" relative="1" as="geometry">
             <mxPoint x="13" y="-10" as="offset" />
           </mxGeometry>
@@ -2136,11 +2136,11 @@
         </mxCell>
         <mxCell id="oeEB2f8aZJNHgzJaXCm0-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1404" y="2400" as="sourcePoint" />
-            <mxPoint x="1480" y="2400" as="targetPoint" />
+            <mxPoint x="1404" y="2403" as="sourcePoint" />
+            <mxPoint x="1480" y="2403" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1446" y="2400" />
-              <mxPoint x="1666" y="2400" />
+              <mxPoint x="1446" y="2403" />
+              <mxPoint x="1666" y="2403" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2159,7 +2159,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oeEB2f8aZJNHgzJaXCm0-78" value="MovePacket/AddPacket(!!! here is how data transfer betweeen calculators)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oeEB2f8aZJNHgzJaXCm0-77" vertex="1" connectable="0">
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-78" value="&lt;i&gt;MovePacket/AddPacket(!!! here is how data transfer betweeen calculators)&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oeEB2f8aZJNHgzJaXCm0-77" vertex="1" connectable="0">
           <mxGeometry x="-0.1903" relative="1" as="geometry">
             <mxPoint x="13" y="-10" as="offset" />
           </mxGeometry>
@@ -2489,7 +2489,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oeEB2f8aZJNHgzJaXCm0-128" value="AddPacket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oeEB2f8aZJNHgzJaXCm0-127" vertex="1" connectable="0">
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-128" value="&lt;i&gt;AddPacket(packet_queue_.emplace)&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oeEB2f8aZJNHgzJaXCm0-127" vertex="1" connectable="0">
           <mxGeometry x="-0.1903" relative="1" as="geometry">
             <mxPoint x="13" y="-10" as="offset" />
           </mxGeometry>
@@ -2566,6 +2566,21 @@
             <mxPoint x="2534.5" y="1190" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYI6WiY7GtyPBRoUB3ut-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835.5" y="2429" as="sourcePoint" />
+            <mxPoint x="730" y="2429" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765.5" y="2429" />
+              <mxPoint x="765.5" y="2429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYI6WiY7GtyPBRoUB3ut-18" value="same as below, omitted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xYI6WiY7GtyPBRoUB3ut-17">
+          <mxGeometry x="-0.216" relative="1" as="geometry">
+            <mxPoint x="-34.5" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
