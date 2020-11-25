@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T09:17:57.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="tQqWLw1lC5rRn6A1Ceni" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T09:35:58.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="kNoKJ03h0_azBCqIpYjL" version="13.10.1" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="1717" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,7 +188,7 @@
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-2" value="R&quot;(&lt;br&gt;&amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp;output_stream: &quot;out&quot; &lt;br&gt;&amp;nbsp;node { &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;in&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;node&lt;br&gt;&amp;nbsp;{ &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;calculator: &quot;PassThroughCalculator&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;input_stream: &quot;out1&quot; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;output_stream: &quot;out&quot;&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;)&lt;br&gt;" style="text;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="845.5" y="-14" width="249" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-3" value="CalculatorContext&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-3" value="CalculatorContext&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="html=1;align=left;fillColor=#FFF4C3;" parent="1" vertex="1">
           <mxGeometry x="355" y="860" width="260" height="106" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-4" value="InputStreamShard" style="html=1;fillColor=#B3FF66;" parent="1" vertex="1">
@@ -2256,7 +2256,7 @@
             <mxPoint x="13" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oeEB2f8aZJNHgzJaXCm0-91" value="CalculatorContext" style="html=1;" parent="1" vertex="1">
+        <mxCell id="oeEB2f8aZJNHgzJaXCm0-91" value="CalculatorContext" style="html=1;fillColor=#FFF4C3;" parent="1" vertex="1">
           <mxGeometry x="350" y="417" width="60" height="36" as="geometry" />
         </mxCell>
         <mxCell id="oeEB2f8aZJNHgzJaXCm0-92" value="CalculatorState" style="html=1;" parent="1" vertex="1">
@@ -2558,6 +2558,14 @@
         <mxCell id="xYI6WiY7GtyPBRoUB3ut-14" value="do algo..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xYI6WiY7GtyPBRoUB3ut-13">
           <mxGeometry x="-0.1903" relative="1" as="geometry">
             <mxPoint x="-30" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYI6WiY7GtyPBRoUB3ut-16" value="new" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.3236" width="80" relative="1" as="geometry">
+            <mxPoint x="2370" y="1190" as="sourcePoint" />
+            <mxPoint x="2534.5" y="1190" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
