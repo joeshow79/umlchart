@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T05:37:08.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tybUd5p0RCOGb1pRRydu" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T05:54:48.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dcQIuf14ZYSwotnR5dyk" version="14.1.1" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="2500" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2339,11 +2339,11 @@
         </mxCell>
         <mxCell id="oeEB2f8aZJNHgzJaXCm0-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="2850" as="sourcePoint" />
-            <mxPoint x="810" y="2850" as="targetPoint" />
+            <mxPoint x="440" y="2835" as="sourcePoint" />
+            <mxPoint x="810" y="2835" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="740" y="2850" />
-              <mxPoint x="740" y="2850" />
+              <mxPoint x="740" y="2835" />
+              <mxPoint x="740" y="2835" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2938,6 +2938,22 @@
         </mxCell>
         <mxCell id="SbxzRYlfZZnXHPWZNHGO-2" value="CalculatorNode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="366" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SbxzRYlfZZnXHPWZNHGO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2840" as="sourcePoint" />
+            <mxPoint x="810" y="2850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="2840" />
+              <mxPoint x="790" y="2845" />
+              <mxPoint x="810" y="2845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SbxzRYlfZZnXHPWZNHGO-5" value="&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;GetNodeReadiness&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SbxzRYlfZZnXHPWZNHGO-4">
+          <mxGeometry x="-0.1903" relative="1" as="geometry">
+            <mxPoint x="62.5" y="3.4699999999999918" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
