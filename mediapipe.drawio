@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T05:28:55.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-9PX6dbgjGiIXo5cfJkl" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T05:36:50.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Sdx50XG62PtMOeDtTvxJ" version="14.1.1" type="github">
   <diagram id="dAvzmWWmF4vz5P4AHdHi" name="Page-1">
     <mxGraphModel dx="2500" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-30" value="SchedulerQueue" style="html=1;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="465" y="386" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-31" value="InputStreamManager&lt;br&gt;&lt;br&gt;" style="html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="_TtrgF-6V0Fd3hpmhVeo-31" value="InputStreamManager&lt;br&gt;n: numberof input stream" style="html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="320" y="596" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_TtrgF-6V0Fd3hpmhVeo-34" value="AddMirror" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#FF0000;" parent="1" edge="1">
@@ -2571,7 +2571,7 @@
         <mxCell id="xYI6WiY7GtyPBRoUB3ut-26" value="SchedulerQueue" style="html=1;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="830" y="386" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xYI6WiY7GtyPBRoUB3ut-27" value="InputStreamManager&lt;br&gt;&lt;br&gt;" style="html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="xYI6WiY7GtyPBRoUB3ut-27" value="InputStreamManager&lt;br&gt;n: numberof input stream" style="html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="685" y="596" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xYI6WiY7GtyPBRoUB3ut-28" value="CalculatorBase" style="html=1;" parent="1" vertex="1">
