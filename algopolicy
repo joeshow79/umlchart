@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T10:24:11.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="aydKIv0rkogyOhw5Vt7X" version="14.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-20T12:18:54.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-AxyIc5NvTyJp5HEGQO2" version="14.2.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Classes">
     <mxGraphModel dx="2835" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
         <mxCell id="mal5ZkM9X-nCRavdEKsv-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="mal5ZkM9X-nCRavdEKsv-17">
           <mxGeometry y="26" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="mal5ZkM9X-nCRavdEKsv-20" value="+ vector&lt;Algorithm::Info&gt; get_all_algorithm_info()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mal5ZkM9X-nCRavdEKsv-17">
+        <mxCell id="mal5ZkM9X-nCRavdEKsv-20" value="+ vector&lt;Algorithm::Info&gt; get_all_algorithm_info()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#FFCCCC;" vertex="1" parent="mal5ZkM9X-nCRavdEKsv-17">
           <mxGeometry y="34" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mal5ZkM9X-nCRavdEKsv-21" value="+ Algorithm::Info get_algorithm_info_heuristic()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#FFCCCC;" vertex="1" parent="mal5ZkM9X-nCRavdEKsv-17">
@@ -1316,20 +1316,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9EaeRpK9L4wIli4K5tth" name="algo_chooser">
-    <mxGraphModel dx="814" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lkiGRRVenafOPv0DckXO-0" />
         <mxCell id="lkiGRRVenafOPv0DckXO-1" parent="lkiGRRVenafOPv0DckXO-0" />
-        <mxCell id="lkiGRRVenafOPv0DckXO-2" value="AlgoChooser" style="swimlane;startSize=20;strokeColor=#FF3333;fillColor=#FFCCCC;" vertex="1" parent="lkiGRRVenafOPv0DckXO-1">
-          <mxGeometry x="260" y="90" width="120" height="320" as="geometry" />
-        </mxCell>
         <mxCell id="lkiGRRVenafOPv0DckXO-3" value="AlgoChooser::ExeContext" style="swimlane;startSize=20;strokeColor=#FF3333;fillColor=#FFCCCC;" vertex="1" parent="lkiGRRVenafOPv0DckXO-1">
-          <mxGeometry x="380" y="90" width="200" height="320" as="geometry" />
+          <mxGeometry x="880" y="100" width="370" height="320" as="geometry" />
         </mxCell>
         <mxCell id="lkiGRRVenafOPv0DckXO-4" value="setup_algo" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="lkiGRRVenafOPv0DckXO-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="180" y="150" as="sourcePoint" />
-            <mxPoint x="260" y="150" as="targetPoint" />
+            <mxPoint x="70" y="160" as="sourcePoint" />
+            <mxPoint x="150" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t9pfivjGu2Lq8mf5OsPF-2" value="AlgoChooser::ExeContext" style="swimlane;startSize=20;strokeColor=#FF3333;fillColor=#FFCCCC;" vertex="1" parent="lkiGRRVenafOPv0DckXO-1">
+          <mxGeometry x="510" y="100" width="370" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t9pfivjGu2Lq8mf5OsPF-5" value="AlgoChooser" style="swimlane;startSize=20;strokeColor=#FF3333;fillColor=#FFCCCC;" vertex="1" parent="lkiGRRVenafOPv0DckXO-1">
+          <mxGeometry x="150" y="110" width="370" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t9pfivjGu2Lq8mf5OsPF-8" value="init by&amp;nbsp;&lt;br&gt;MGB_FOREACH_FASTRUN_OPR" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="t9pfivjGu2Lq8mf5OsPF-5">
+          <mxGeometry x="60" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t9pfivjGu2Lq8mf5OsPF-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="t9pfivjGu2Lq8mf5OsPF-5" source="t9pfivjGu2Lq8mf5OsPF-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
